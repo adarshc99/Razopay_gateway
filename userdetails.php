@@ -31,20 +31,20 @@
 <body>
 
 <div class="container mt-3">
-  <h2>Stacked form</h2>
+  <h2>User Details</h2>
   <p id="error" class="bg-danger text-center" ></p>
   <form method="POST" action="BacktoPay.php">
   <div class="mb-3 mt-3">
       <label for="name">Name:</label>
-      <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name">
+      <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name" autocomplete="off">
     </div>
     <div class="mb-3 mt-3">
       <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" >
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" autocomplete="off">
     </div>
     <div class="mb-3">
       <label for="Phone Number">Phone number:</label>
-      <input type="text" class="form-control" id="phone" placeholder="Enter Phone" name="phone">
+      <input type="text" class="form-control" id="phone" placeholder="Enter Phone" name="phone" autocomplete="off">
     </div>
     
     <button type="submit" class="btn btn-primary" name="detailsSubmit">Submit Details</button>
